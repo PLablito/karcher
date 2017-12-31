@@ -1,0 +1,121 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.navbar_wrapper {
+  background-color: #fcd831;
+  height: 100px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.navbar a {
+  padding: 5px;
+  display: block;
+  color: black;
+  text-transform: uppercase;
+  text-decoration: none;
+  list-style-type: none; }
+
+.navbar a:hover {
+  color: gray;
+  border-bottom: 1px solid black; }
+
+body {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  width: 900px;
+  margin: 0 auto; }
+
+footer {
+  height: 150px;
+  background-color: #fae56a;
+  margin-bottom: 30px; }
+
+.content {
+  padding-top: 30px;
+  padding-bottom: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 900px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+
+.content img {
+  width: 360px;
+  height: 360px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.content p {
+  width: 360px;
+  height: 50px;
+  text-align: center;
+  padding-top: 20px;
+  text-transform: uppercase; }
+
+.content section {
+  border: 4px solid yellow;
+  cursor: pointer;
+  margin: 30px; }
+
+.hero_image {
+  display: block;
+  width: 100%; }

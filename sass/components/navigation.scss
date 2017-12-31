@@ -1,0 +1,29 @@
+@import "../config";
+
+.navbar_wrapper {
+  background-color: rgb(252, 216, 49);
+  height: 100px;
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+}
+
+.navbar a {
+  padding: 5px;
+  display: block;
+  color: black;
+  text-transform: uppercase;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.navbar a:hover {
+  color: gray;
+  border-bottom: 1px solid black;
+}
